@@ -1,0 +1,170 @@
+LD_LIBRARY_PATH=.:/home/luser/.rvm/rubies/ruby-3.2.2/lib "gcc -o conftest -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/x86_64-linux -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/backward -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef  -fPIC conftest.c  -L. -L/home/luser/.rvm/rubies/ruby-3.2.2/lib -Wl,-rpath,/home/luser/.rvm/rubies/ruby-3.2.2/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -Wl,-rpath,/home/luser/.rvm/rubies/ruby-3.2.2/lib -L/home/luser/.rvm/rubies/ruby-3.2.2/lib -lruby  -lm -lpthread  -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+LD_LIBRARY_PATH=.:/home/luser/.rvm/rubies/ruby-3.2.2/lib "gcc -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/x86_64-linux -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/backward -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef  -fPIC  -std=gnu99 -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+LD_LIBRARY_PATH=.:/home/luser/.rvm/rubies/ruby-3.2.2/lib "gcc -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/x86_64-linux -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/backward -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef  -fPIC -std=gnu99  -Wno-unused-function -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+LD_LIBRARY_PATH=.:/home/luser/.rvm/rubies/ruby-3.2.2/lib "gcc -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/x86_64-linux -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/backward -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef  -fPIC -std=gnu99 -Wno-unused-function  -Wno-declaration-after-statement -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+LD_LIBRARY_PATH=.:/home/luser/.rvm/rubies/ruby-3.2.2/lib "gcc -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/x86_64-linux -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/backward -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef  -fPIC -std=gnu99 -Wno-unused-function -Wno-declaration-after-statement  -Werror-implicit-function-declaration -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+LD_LIBRARY_PATH=.:/home/luser/.rvm/rubies/ruby-3.2.2/lib "gcc -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/x86_64-linux -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/backward -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef  -fPIC -std=gnu99 -Wno-unused-function -Wno-declaration-after-statement -Werror-implicit-function-declaration  -Wunused-parameter -Werror -c conftest.c"
+In file included from /home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/core/rstring.h:30,
+                 from /home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/arithmetic/char.h:29,
+                 from /home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/arithmetic.h:24,
+                 from /home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/ruby.h:28,
+                 from /home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby.h:38,
+                 from conftest.c:1:
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/fl_type.h: In function 'RB_OBJ_TAINTABLE':
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/fl_type.h:788:24: error: unused parameter 'obj' [-Werror=unused-parameter]
+  788 | RB_OBJ_TAINTABLE(VALUE obj)
+      |                  ~~~~~~^~~
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/fl_type.h: In function 'RB_OBJ_TAINTED_RAW':
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/fl_type.h:805:26: error: unused parameter 'obj' [-Werror=unused-parameter]
+  805 | RB_OBJ_TAINTED_RAW(VALUE obj)
+      |                    ~~~~~~^~~
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/fl_type.h: In function 'RB_OBJ_TAINTED':
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/fl_type.h:822:22: error: unused parameter 'obj' [-Werror=unused-parameter]
+  822 | RB_OBJ_TAINTED(VALUE obj)
+      |                ~~~~~~^~~
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/fl_type.h: In function 'RB_OBJ_TAINT_RAW':
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/fl_type.h:837:24: error: unused parameter 'obj' [-Werror=unused-parameter]
+  837 | RB_OBJ_TAINT_RAW(VALUE obj)
+      |                  ~~~~~~^~~
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/fl_type.h: In function 'RB_OBJ_TAINT':
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/fl_type.h:852:20: error: unused parameter 'obj' [-Werror=unused-parameter]
+  852 | RB_OBJ_TAINT(VALUE obj)
+      |              ~~~~~~^~~
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/fl_type.h: In function 'RB_OBJ_INFECT_RAW':
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/fl_type.h:868:25: error: unused parameter 'dst' [-Werror=unused-parameter]
+  868 | RB_OBJ_INFECT_RAW(VALUE dst, VALUE src)
+      |                   ~~~~~~^~~
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/fl_type.h:868:36: error: unused parameter 'src' [-Werror=unused-parameter]
+  868 | RB_OBJ_INFECT_RAW(VALUE dst, VALUE src)
+      |                              ~~~~~~^~~
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/fl_type.h: In function 'RB_OBJ_INFECT':
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/fl_type.h:884:21: error: unused parameter 'dst' [-Werror=unused-parameter]
+  884 | RB_OBJ_INFECT(VALUE dst, VALUE src)
+      |               ~~~~~~^~~
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/fl_type.h:884:32: error: unused parameter 'src' [-Werror=unused-parameter]
+  884 | RB_OBJ_INFECT(VALUE dst, VALUE src)
+      |                          ~~~~~~^~~
+In file included from /home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/ruby.h:45:
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/newobj.h: In function 'rb_clone_setup':
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/newobj.h:173:22: error: unused parameter 'clone' [-Werror=unused-parameter]
+  173 | rb_clone_setup(VALUE clone, VALUE obj)
+      |                ~~~~~~^~~~~
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/newobj.h:173:35: error: unused parameter 'obj' [-Werror=unused-parameter]
+  173 | rb_clone_setup(VALUE clone, VALUE obj)
+      |                             ~~~~~~^~~
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/newobj.h: In function 'rb_dup_setup':
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/newobj.h:190:20: error: unused parameter 'dup' [-Werror=unused-parameter]
+  190 | rb_dup_setup(VALUE dup, VALUE obj)
+      |              ~~~~~~^~~
+/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/internal/newobj.h:190:31: error: unused parameter 'obj' [-Werror=unused-parameter]
+  190 | rb_dup_setup(VALUE dup, VALUE obj)
+      |                         ~~~~~~^~~
+At top level:
+cc1: note: unrecognized command-line option '-Wno-self-assign' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-parentheses-equality' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-constant-logical-operand' may have been intended to silence earlier diagnostics
+cc1: all warnings being treated as errors
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+LD_LIBRARY_PATH=.:/home/luser/.rvm/rubies/ruby-3.2.2/lib "gcc -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/x86_64-linux -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/backward -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef  -fPIC -std=gnu99 -Wno-unused-function -Wno-declaration-after-statement -Werror-implicit-function-declaration  -fvisibility=hidden -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+LD_LIBRARY_PATH=.:/home/luser/.rvm/rubies/ruby-3.2.2/lib "gcc -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/x86_64-linux -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/backward -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef  -fPIC -std=gnu99 -Wno-unused-function -Wno-declaration-after-statement -Werror-implicit-function-declaration -fvisibility=hidden  -Wold-style-definition -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+LD_LIBRARY_PATH=.:/home/luser/.rvm/rubies/ruby-3.2.2/lib "gcc -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/x86_64-linux -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/backward -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef  -fPIC -std=gnu99 -Wno-unused-function -Wno-declaration-after-statement -Werror-implicit-function-declaration -fvisibility=hidden -Wold-style-definition  -Wall -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+LD_LIBRARY_PATH=.:/home/luser/.rvm/rubies/ruby-3.2.2/lib "gcc -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/x86_64-linux -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0/ruby/backward -I/home/luser/.rvm/rubies/ruby-3.2.2/include/ruby-3.2.0 -I.    -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef  -fPIC -std=gnu99 -Wno-unused-function -Wno-declaration-after-statement -Werror-implicit-function-declaration -fvisibility=hidden -Wold-style-definition -Wall  -Wextra -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+

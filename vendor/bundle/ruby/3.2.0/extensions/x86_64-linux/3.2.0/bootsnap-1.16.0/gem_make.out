@@ -1,0 +1,18 @@
+current directory: /files/chatwoot/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+/home/luser/.rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /files/chatwoot/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240829-29906-ttki46 sitelibdir\=./.gem.20240829-29906-ttki46 clean
+
+current directory: /files/chatwoot/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240829-29906-ttki46 sitelibdir\=./.gem.20240829-29906-ttki46
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /files/chatwoot/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240829-29906-ttki46 sitelibdir\=./.gem.20240829-29906-ttki46 install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20240829-29906-ttki46/bootsnap
+
+current directory: /files/chatwoot/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240829-29906-ttki46 sitelibdir\=./.gem.20240829-29906-ttki46 clean
