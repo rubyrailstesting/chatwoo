@@ -35,7 +35,7 @@ Chatwoot is an open-source, self-hosted customer engagement suite. Chatwoot lets
 
 ## Features
 
-Chatwoot supports the following conversation channels:
+Chatwoot supports the following conversation channels: tegsybsh
 
  - **Website**: Talk to your customers using our live chat widget and make use of our SDK to identify a user and provide contextual support.
  - **Facebook**: Connect your Facebook pages and start replying to the direct messages to your page.
